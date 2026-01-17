@@ -1,0 +1,3344 @@
+{
+  "average_metrics": {
+    "sg_iou": 0.0130718954248366,
+    "entity_iou": 0.042577030812324924,
+    "relation_iou": 0.014705882352941176,
+    "n_images": 102
+  },
+  "per_image_results": [
+    {
+      "image": "000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 1.0,
+      "entity_iou": 1.0,
+      "relation_iou": 1.0,
+      "predicted_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "predicted_entities": [
+        "rose",
+        "carrot"
+      ]
+    },
+    {
+      "image": "000_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.6666666666666666,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "rose",
+          "sits on",
+          "floor"
+        ],
+        [
+          "carrot",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "rose",
+        "carrot",
+        "floor"
+      ]
+    },
+    {
+      "image": "000_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.3333333333333333,
+      "entity_iou": 0.6666666666666666,
+      "relation_iou": 0.5,
+      "predicted_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ],
+        [
+          "rose",
+          "sits on",
+          "table"
+        ],
+        [
+          "carrot",
+          "sits on",
+          "table"
+        ]
+      ],
+      "predicted_entities": [
+        "rose",
+        "carrot",
+        "table"
+      ]
+    },
+    {
+      "image": "000_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.3333333333333333,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "rose",
+          "sits on",
+          "a bowl"
+        ]
+      ],
+      "predicted_entities": [
+        "rose",
+        "a bowl"
+      ]
+    },
+    {
+      "image": "000_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.6666666666666666,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "rose",
+          "sits on",
+          "carrot"
+        ],
+        [
+          "carrot",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "rose",
+        "carrot",
+        "floor"
+      ]
+    },
+    {
+      "image": "000_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.6666666666666666,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "rose",
+          "sits on",
+          "floor"
+        ],
+        [
+          "carrot",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "rose",
+        "carrot",
+        "floor"
+      ]
+    },
+    {
+      "image": "001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "shake hands",
+          "cat"
+        ]
+      ],
+      "predicted_entities": [
+        "cat"
+      ]
+    },
+    {
+      "image": "001_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "shake hands",
+          "cat"
+        ]
+      ],
+      "predicted_entities": [
+        "cat"
+      ]
+    },
+    {
+      "image": "001_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "shake hands",
+          "cat"
+        ]
+      ],
+      "predicted_entities": [
+        "cat"
+      ]
+    },
+    {
+      "image": "001_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "shake hands",
+          "cat"
+        ]
+      ],
+      "predicted_entities": [
+        "cat"
+      ]
+    },
+    {
+      "image": "001_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "shake hands",
+          "cat"
+        ]
+      ],
+      "predicted_entities": [
+        "cat"
+      ]
+    },
+    {
+      "image": "001_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "shake hands",
+          "cat"
+        ]
+      ],
+      "predicted_entities": [
+        "cat"
+      ]
+    },
+    {
+      "image": "002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "ride on",
+          "bicycle"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "bicycle"
+      ]
+    },
+    {
+      "image": "002_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "ride on",
+          "bicycle"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "bicycle"
+      ]
+    },
+    {
+      "image": "002_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "ride on",
+          "bicycle"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "bicycle"
+      ]
+    },
+    {
+      "image": "002_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "ride on",
+          "bicycle"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "bicycle"
+      ]
+    },
+    {
+      "image": "002_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "ride on",
+          "bicycle"
+        ],
+        [
+          "bicycle",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "bicycle",
+        "floor"
+      ]
+    },
+    {
+      "image": "002_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "ride on",
+          "bicycle"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "bicycle"
+      ]
+    },
+    {
+      "image": "003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cat",
+          "is painted on",
+          "a shirt"
+        ]
+      ],
+      "predicted_entities": [
+        "a cat",
+        "a shirt"
+      ]
+    },
+    {
+      "image": "003_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cat",
+          "is painted on",
+          "a shirt"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a shirt",
+        "a cat"
+      ]
+    },
+    {
+      "image": "003_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "is painted on",
+          "a shirt"
+        ],
+        [
+          "a shirt",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a shirt",
+        "cat",
+        "floor"
+      ]
+    },
+    {
+      "image": "003_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cat",
+          "is painted on",
+          "a shirt"
+        ],
+        [
+          "a shirt",
+          "sits on",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a shirt",
+        "a cat",
+        "a table"
+      ]
+    },
+    {
+      "image": "003_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "cat",
+          "is painted on",
+          "a shirt"
+        ],
+        [
+          "a shirt",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a shirt",
+        "cat",
+        "floor"
+      ]
+    },
+    {
+      "image": "003_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a shirt",
+          "sits on",
+          "floor"
+        ],
+        [
+          "cat",
+          "is painted on",
+          "a shirt"
+        ]
+      ],
+      "predicted_entities": [
+        "a shirt",
+        "floor",
+        "cat"
+      ]
+    },
+    {
+      "image": "004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "back to back with",
+          "a woman"
+        ],
+        [
+          "a man",
+          "holding",
+          "a guitar"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a guitar"
+      ]
+    },
+    {
+      "image": "004_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "holding",
+          "a guitar"
+        ],
+        [
+          "a man",
+          "holding",
+          "a guitar"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a man",
+        "a guitar"
+      ]
+    },
+    {
+      "image": "004_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "holding",
+          "a guitar"
+        ],
+        [
+          "a man",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a guitar",
+        "floor"
+      ]
+    },
+    {
+      "image": "004_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "holding",
+          "a guitar"
+        ],
+        [
+          "a woman",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a guitar",
+        "floor"
+      ]
+    },
+    {
+      "image": "004_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a man",
+          "holding",
+          "a guitar"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "floor",
+        "a guitar"
+      ]
+    },
+    {
+      "image": "004_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "back to back with",
+          "a man"
+        ],
+        [
+          "a man",
+          "holding",
+          "a guitar"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a man",
+        "a guitar"
+      ]
+    },
+    {
+      "image": "005.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "holding",
+          "a cake"
+        ],
+        [
+          "a woman",
+          "holding",
+          "an apple"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a cake",
+        "an apple"
+      ]
+    },
+    {
+      "image": "005_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "holding",
+          "a cake"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a man",
+        "a cake"
+      ]
+    },
+    {
+      "image": "005_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "holding",
+          "an apple"
+        ],
+        [
+          "a man",
+          "holding",
+          "a cake"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "an apple",
+        "a cake"
+      ]
+    },
+    {
+      "image": "005_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.14285714285714285,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "holding",
+          "a cake"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ],
+        [
+          "rose",
+          "sits on",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a cake",
+        "a man",
+        "rose",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "005_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "sits on",
+          "a cake"
+        ],
+        [
+          "a cake",
+          "sits on",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a cake",
+        "an apple",
+        "a table"
+      ]
+    },
+    {
+      "image": "005_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "holding",
+          "a cake"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a cake"
+      ]
+    },
+    {
+      "image": "006.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "above",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a table"
+      ]
+    },
+    {
+      "image": "006_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "sits on",
+          "a table"
+        ],
+        [
+          "an apple",
+          "under",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "006_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "006_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "006_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a bowl",
+          "sits on",
+          "a table"
+        ],
+        [
+          "an apple",
+          "under",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "a bowl",
+        "an apple",
+        "floor"
+      ]
+    },
+    {
+      "image": "006_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "007.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a ball",
+          "under",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a ball",
+        "a table"
+      ]
+    },
+    {
+      "image": "007_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a ball",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a ball",
+          "under",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "a ball",
+        "floor"
+      ]
+    },
+    {
+      "image": "007_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a ball",
+          "stands on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a ball",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "007_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a ball",
+          "under",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "floor",
+        "a ball"
+      ]
+    },
+    {
+      "image": "007_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a ball",
+          "under",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a ball",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "007_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a ball",
+          "under",
+          "a table"
+        ],
+        [
+          "a ball",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "a ball",
+        "floor"
+      ]
+    },
+    {
+      "image": "008.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a chair"
+      ]
+    },
+    {
+      "image": "008_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "an apple",
+        "floor"
+      ]
+    },
+    {
+      "image": "008_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "008_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "floor",
+        "an apple"
+      ]
+    },
+    {
+      "image": "008_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "an apple",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "008_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ],
+        [
+          "a spoon",
+          "sits on",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "floor",
+        "an apple",
+        "a spoon"
+      ]
+    },
+    {
+      "image": "009.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "under",
+          "a chair"
+        ],
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "an apple",
+        "a chair"
+      ]
+    },
+    {
+      "image": "009_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "an apple",
+        "floor"
+      ]
+    },
+    {
+      "image": "009_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "a cup",
+        "an apple",
+        "floor"
+      ]
+    },
+    {
+      "image": "009_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a bowl",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "water",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "a bowl",
+        "floor",
+        "water"
+      ]
+    },
+    {
+      "image": "009_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "an apple",
+        "floor"
+      ]
+    },
+    {
+      "image": "009_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.2,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "an apple",
+          "under",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a chair",
+        "an apple",
+        "floor",
+        "rose"
+      ]
+    },
+    {
+      "image": "010.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a pitaya",
+          "above",
+          "a table"
+        ],
+        [
+          "an apple",
+          "above",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a pitaya",
+        "an apple",
+        "a table"
+      ]
+    },
+    {
+      "image": "010_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a pitaya",
+          "under",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "floor",
+        "a pitaya"
+      ]
+    },
+    {
+      "image": "010_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a pitaya",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a pitaya",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "010_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a pitaya",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a pitaya",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "010_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "stands on",
+          "a table"
+        ],
+        [
+          "a pitaya",
+          "stands on",
+          "a table"
+        ],
+        [
+          "a pitaya",
+          "under",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a table",
+        "a pitaya",
+        "floor"
+      ]
+    },
+    {
+      "image": "010_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a pitaya",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a table",
+        "floor",
+        "a pitaya"
+      ]
+    },
+    {
+      "image": "011.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "above",
+          "a table"
+        ],
+        [
+          "a spoon",
+          "above",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a spoon",
+        "a table"
+      ]
+    },
+    {
+      "image": "011_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a hamster",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a spoon",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a hamster",
+        "a table",
+        "a spoon",
+        "floor"
+      ]
+    },
+    {
+      "image": "011_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a spoon",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a table",
+        "a spoon",
+        "floor"
+      ]
+    },
+    {
+      "image": "011_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a spoon",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a table",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a spoon",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "011_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a spoon",
+          "sits on",
+          "a bowl"
+        ],
+        [
+          "a bowl",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a cup",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a spoon",
+        "a bowl",
+        "floor"
+      ]
+    },
+    {
+      "image": "011_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a bowl",
+          "sits on",
+          "floor"
+        ],
+        [
+          "a spoon",
+          "under",
+          "a bowl"
+        ]
+      ],
+      "predicted_entities": [
+        "a bowl",
+        "floor",
+        "a spoon"
+      ]
+    },
+    {
+      "image": "012.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "under",
+          "a table"
+        ],
+        [
+          "a bowl",
+          "under",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a bowl",
+        "a table"
+      ]
+    },
+    {
+      "image": "012_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "012_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a cup",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a cup",
+        "a table",
+        "floor"
+      ]
+    },
+    {
+      "image": "012_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a bowl",
+          "sits on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "floor",
+        "a bowl"
+      ]
+    },
+    {
+      "image": "012_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a bowl",
+          "under",
+          "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "a bowl",
+        "floor"
+      ]
+    },
+    {
+      "image": "012_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a cup",
+          "under",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a table",
+        "floor",
+        "a cup"
+      ]
+    },
+    {
+      "image": "013.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a girl",
+          "holding",
+          "a schoolbag"
+        ],
+        [
+          "a girl",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a girl",
+        "a chair",
+        "a schoolbag",
+        "floor"
+      ]
+    },
+    {
+      "image": "013_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a schoolbag",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "013_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a woman",
+          "sits on",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a chair"
+      ]
+    },
+    {
+      "image": "013_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "013_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "013_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a woman",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "014.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "014_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "014_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a table"
+        ],
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a ball",
+          "is painted on",
+          "a shirt"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a table",
+        "a chair",
+        "a shirt",
+        "a ball",
+        "floor"
+      ]
+    },
+    {
+      "image": "014_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a chair",
+        "floor",
+        "a table",
+        "a shirt"
+      ]
+    },
+    {
+      "image": "014_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a chair",
+        "floor",
+        "a table"
+      ]
+    },
+    {
+      "image": "014_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a man",
+          "sits on",
+          "a table"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a chair",
+        "a table",
+        "a shirt"
+      ]
+    },
+    {
+      "image": "015.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a girl",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ]
+      ],
+      "predicted_entities": [
+        "a girl",
+        "floor",
+        "a man",
+        "a chair"
+      ]
+    },
+    {
+      "image": "015_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a man",
+        "floor"
+      ]
+    },
+    {
+      "image": "015_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a woman",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a woman",
+          "back to back with",
+          "a man"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a woman",
+        "a man",
+        "a chair",
+        "floor",
+        "a table"
+      ]
+    },
+    {
+      "image": "015_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "floor"
+      ]
+    },
+    {
+      "image": "015_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "sits on",
+          "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "a chair",
+        "floor"
+      ]
+    },
+    {
+      "image": "015_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a woman",
+        "floor"
+      ]
+    },
+    {
+      "image": "016.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "drinking",
+          "juice"
+        ],
+        [
+          "a man",
+          "drinking",
+          "water"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "juice",
+        "water"
+      ]
+    },
+    {
+      "image": "016_000.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "drinking",
+          "water"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "water",
+        "floor",
+        "a shirt"
+      ]
+    },
+    {
+      "image": "016_001.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "drinking",
+          "water"
+        ],
+        [
+          "a man",
+          "holding",
+          "a cup"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a cup",
+        "water"
+      ]
+    },
+    {
+      "image": "016_002.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "drinking",
+          "water"
+        ],
+        [
+          "a man",
+          "drinking",
+          "water"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "water"
+      ]
+    },
+    {
+      "image": "016_003.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "holding",
+          "a cup"
+        ],
+        [
+          "a man",
+          "drinking",
+          "water"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a cup",
+        "water",
+        "a shirt"
+      ]
+    },
+    {
+      "image": "016_004.png",
+      "scene": "",
+      "caption": "rose carved by carrot",
+      "ground_truth_sg": [
+        [
+          "rose",
+          "carved by",
+          "carrot"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.0,
+      "relation_iou": 0.0,
+      "predicted_sg": [
+        [
+          "a man",
+          "drinking",
+          "water"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "water"
+      ]
+    }
+  ]
+}

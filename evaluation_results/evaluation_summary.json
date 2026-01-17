@@ -1,0 +1,23 @@
+{
+  "metadata_file": "dataset/MultiRels/valdata.jsonl",
+  "methods_evaluated": [
+    "gnn_run",
+    "repr_run"
+  ],
+  "num_methods": 2,
+  "num_test_scenes": 17,
+  "metrics": {
+    "gnn_run": {
+      "sg_iou": 0.014705882352941176,
+      "entity_iou": 0.03849206349206349,
+      "relation_iou": 0.014705882352941176,
+      "n_images": 102
+    },
+    "repr_run": {
+      "sg_iou": 0.0130718954248366,
+      "entity_iou": 0.042577030812324924,
+      "relation_iou": 0.014705882352941176,
+      "n_images": 102
+    }
+  }
+}
