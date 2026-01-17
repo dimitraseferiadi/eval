@@ -1,6 +1,6 @@
 """
 SG-Adapter Evaluation Script using Gemini API
-Adjusted for your metadata.jsonl format
+FIXED VERSION - Properly matches images to metadata
 """
 
 import os
@@ -24,18 +24,17 @@ class SGAdapterEvaluator:
         self.object_list = set()
         self.predicate_list = set()
     
-    def load_metadata(self, metadata_file: str) -> Dict[str, Dict]:
+    def load_metadata(self, metadata_file: str) -> List[Dict]:
         """
         Load metadata from JSONL file
-        Returns: dict mapping file_name to metadata
+        Returns: list of metadata dicts (preserving order)
         """
-        metadata = {}
+        metadata_list = []
         
         with open(metadata_file, 'r') as f:
             for line in f:
                 if line.strip():
                     data = json.loads(line)
-                    file_name = data['file_name']
                     
                     # Convert relations from index format to actual objects
                     objects = data['objects']
@@ -54,18 +53,21 @@ class SGAdapterEvaluator:
                             objects[obj_idx]
                         ])
                     
-                    metadata[file_name] = {
+                    metadata_entry = {
+                        'file_name': data['file_name'],
                         'caption': data['caption'],
                         'scene_graph': scene_graph,
                         'objects': objects,
                         'relations': relations_idx
                     }
                     
+                    metadata_list.append(metadata_entry)
+                    
                     # Collect unique objects and predicates
                     self.object_list.update(objects)
                     self.predicate_list.update(rel[1] for rel in relations_idx)
         
-        return metadata
+        return metadata_list
     
     def extract_scene_graph_from_image(self, image_path: str) -> Dict:
         """Extract scene graph from image using Gemini"""
@@ -169,10 +171,10 @@ Do not include any other text, explanations, or markdown formatting."""
             metadata_file: Path to metadata.jsonl or valdata.jsonl file
             output_file: Optional file to save results
         """
-        # Load ground truth metadata
+        # Load ground truth metadata as a list (preserving order)
         print(f"Loading metadata from: {metadata_file}")
-        metadata = self.load_metadata(metadata_file)
-        print(f"Loaded {len(metadata)} entries")
+        metadata_list = self.load_metadata(metadata_file)
+        print(f"Loaded {len(metadata_list)} entries")
         print(f"Unique objects: {len(self.object_list)}")
         print(f"Unique predicates: {len(self.predicate_list)}")
         
@@ -182,49 +184,41 @@ Do not include any other text, explanations, or markdown formatting."""
         # Get all image files
         image_files = []
         for ext in ['*.png', '*.jpg', '*.jpeg', '*.JPG']:
-            image_files.extend(glob.glob(os.path.join(images_dir, '**', ext), recursive=True))
+            image_files.extend(glob.glob(os.path.join(images_dir, ext)))
+        
+        # Sort to ensure consistent ordering
+        image_files = sorted(image_files)
         
         print(f"\nFound {len(image_files)} images to evaluate")
         
         evaluated = 0
         skipped = 0
         
-        for img_path in sorted(image_files):
-            # Extract relative path from images_dir
-            rel_path = os.path.relpath(img_path, images_dir)
+        for img_path in image_files:
+            # Extract the base filename
+            base_name = os.path.basename(img_path)
+            name_without_ext = os.path.splitext(base_name)[0]
             
-            # Try to match with metadata
-            # The generated images might have different names, so we need to map them
-            # Assuming structure: scene_name/image_0.png, scene_name/image_1.png, etc.
-            scene_name = os.path.dirname(rel_path)
+            # Extract scene index from filename
+            # For files like "000.png", "001_002.png", extract the first number
+            scene_idx = None
+            try:
+                # Split by underscore and take first part
+                first_part = name_without_ext.split('_')[0]
+                if first_part.isdigit():
+                    scene_idx = int(first_part)
+            except:
+                pass
             
-            # Find corresponding metadata entry
-            # This requires knowing which training example this scene corresponds to
-            # We'll need to create a mapping file or use scene names
-            
-            # For now, let's try to find metadata by scene name
-            matching_meta = None
-            for file_name, meta in metadata.items():
-                # Extract scene identifier from training file name
-                # e.g., "train/person_1104/IMG_3615.jpg" -> check if scene matches
-                if scene_name in file_name or file_name.split('/')[-1].startswith(scene_name):
-                    matching_meta = meta
-                    break
-            
-            if matching_meta is None:
-                # Try alternative matching: just use the scene name directly
-                # This assumes you've organized generated images by metadata file names
-                for file_name, meta in metadata.items():
-                    if scene_name in file_name:
-                        matching_meta = meta
-                        break
-            
-            if matching_meta is None:
-                print(f"Warning: No metadata found for {rel_path}")
+            # Get corresponding metadata
+            if scene_idx is not None and scene_idx < len(metadata_list):
+                matching_meta = metadata_list[scene_idx]
+            else:
+                print(f"Warning: No metadata found for {base_name} (extracted index: {scene_idx})")
                 skipped += 1
                 continue
             
-            print(f"Evaluating: {rel_path}")
+            print(f"Evaluating: {base_name} -> Index {scene_idx} ({matching_meta['caption']})")
             
             gt_scene_graph = matching_meta['scene_graph']
             gt_caption = matching_meta['caption']
@@ -233,8 +227,8 @@ Do not include any other text, explanations, or markdown formatting."""
             metrics = self.evaluate_image(img_path, gt_scene_graph)
             
             results.append({
-                "image": rel_path,
-                "scene": scene_name,
+                "image": base_name,
+                "scene_index": scene_idx,
                 "caption": gt_caption,
                 "ground_truth_sg": gt_scene_graph,
                 **metrics
@@ -350,6 +344,6 @@ if __name__ == "__main__":
     # Run comparison using valdata.jsonl for validation
     comparison = evaluator.compare_methods(
         methods_config=methods_config,
-        metadata_file='valdata.jsonl',
+        metadata_file='dataset/MultiRels/valdata.jsonl',
         output_dir='evaluation_results'
     )
