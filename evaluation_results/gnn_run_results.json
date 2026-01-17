@@ -1,37 +1,11 @@
 {
   "average_metrics": {
-    "sg_iou": 0.3728758169934641,
-    "entity_iou": 0.667390289449113,
-    "relation_iou": 0.5334967320261437,
-    "n_images": 102
+    "sg_iou": 0.21666666666666665,
+    "entity_iou": 0.5809243697478994,
+    "relation_iou": 0.4264705882352941,
+    "n_images": 85
   },
   "per_image_results": [
-    {
-      "image": "000.png",
-      "scene_index": 0,
-      "caption": "rose carved by carrot",
-      "ground_truth_sg": [
-        [
-          "rose",
-          "carved by",
-          "carrot"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "rose",
-          "carved by",
-          "carrot"
-        ]
-      ],
-      "predicted_entities": [
-        "rose",
-        "carrot"
-      ]
-    },
     {
       "image": "000_000.png",
       "scene_index": 0,
@@ -121,24 +95,19 @@
           "carrot"
         ]
       ],
-      "sg_iou": 0.3333333333333333,
+      "sg_iou": 0.5,
       "entity_iou": 0.6666666666666666,
       "relation_iou": 0.5,
       "predicted_sg": [
         [
           "rose",
-          "sits on",
-          "floor"
-        ],
-        [
-          "carrot",
-          "sits on",
-          "floor"
+          "carved by",
+          "carrot"
         ],
         [
           "rose",
-          "carved by",
-          "carrot"
+          "sits on",
+          "floor"
         ]
       ],
       "predicted_entities": [
@@ -180,32 +149,6 @@
       ]
     },
     {
-      "image": "001.png",
-      "scene_index": 1,
-      "caption": "cat shake hands cat",
-      "ground_truth_sg": [
-        [
-          "cat",
-          "shake hands",
-          "cat"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "cat",
-          "shake hands",
-          "cat"
-        ]
-      ],
-      "predicted_entities": [
-        "cat",
-        "cat"
-      ]
-    },
-    {
       "image": "001_000.png",
       "scene_index": 1,
       "caption": "cat shake hands cat",
@@ -240,6 +183,7 @@
       "relation_iou": 0.0,
       "predicted_sg": [],
       "predicted_entities": [
+        "cat",
         "cat"
       ]
     },
@@ -319,32 +263,6 @@
       ]
     },
     {
-      "image": "002.png",
-      "scene_index": 2,
-      "caption": "a hamster ride on bicycle",
-      "ground_truth_sg": [
-        [
-          "a hamster",
-          "ride on",
-          "bicycle"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a hamster",
-          "ride on",
-          "bicycle"
-        ]
-      ],
-      "predicted_entities": [
-        "a hamster",
-        "bicycle"
-      ]
-    },
-    {
       "image": "002_000.png",
       "scene_index": 2,
       "caption": "a hamster ride on bicycle",
@@ -419,13 +337,13 @@
           "bicycle"
         ]
       ],
-      "sg_iou": 1.0,
+      "sg_iou": 0.0,
       "entity_iou": 1.0,
-      "relation_iou": 1.0,
+      "relation_iou": 0.0,
       "predicted_sg": [
         [
           "a hamster",
-          "ride on",
+          "sits on",
           "bicycle"
         ]
       ],
@@ -493,32 +411,6 @@
       ]
     },
     {
-      "image": "003.png",
-      "scene_index": 3,
-      "caption": "a cat is painted on a shirt",
-      "ground_truth_sg": [
-        [
-          "a cat",
-          "is painted on",
-          "a shirt"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a cat",
-          "is painted on",
-          "a shirt"
-        ]
-      ],
-      "predicted_entities": [
-        "a cat",
-        "a shirt"
-      ]
-    },
-    {
       "image": "003_000.png",
       "scene_index": 3,
       "caption": "a cat is painted on a shirt",
@@ -530,18 +422,24 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.0,
-      "relation_iou": 1.0,
+      "entity_iou": 0.25,
+      "relation_iou": 0.5,
       "predicted_sg": [
         [
-          "cat",
+          "a cat",
           "is painted on",
           "a schoolbag"
+        ],
+        [
+          "a schoolbag",
+          "sits on",
+          "a chair"
         ]
       ],
       "predicted_entities": [
-        "cat",
-        "a schoolbag"
+        "a schoolbag",
+        "a cat",
+        "a chair"
       ]
     },
     {
@@ -555,18 +453,13 @@
           "a shirt"
         ]
       ],
-      "sg_iou": 0.3333333333333333,
-      "entity_iou": 0.5,
-      "relation_iou": 0.3333333333333333,
+      "sg_iou": 0.5,
+      "entity_iou": 0.6666666666666666,
+      "relation_iou": 0.5,
       "predicted_sg": [
         [
           "a cat",
           "is painted on",
-          "a shirt"
-        ],
-        [
-          "a schoolbag",
-          "above",
           "a shirt"
         ],
         [
@@ -578,7 +471,6 @@
       "predicted_entities": [
         "a cat",
         "a shirt",
-        "a schoolbag",
         "floor"
       ]
     },
@@ -604,8 +496,8 @@
         ]
       ],
       "predicted_entities": [
-        "cat",
-        "a shirt"
+        "a shirt",
+        "cat"
       ]
     },
     {
@@ -619,12 +511,12 @@
           "a shirt"
         ]
       ],
-      "sg_iou": 0.5,
-      "entity_iou": 0.6666666666666666,
+      "sg_iou": 0.0,
+      "entity_iou": 0.25,
       "relation_iou": 0.5,
       "predicted_sg": [
         [
-          "a cat",
+          "cat",
           "is painted on",
           "a shirt"
         ],
@@ -635,8 +527,8 @@
         ]
       ],
       "predicted_entities": [
-        "a cat",
         "a shirt",
+        "cat",
         "floor"
       ]
     },
@@ -651,12 +543,12 @@
           "a shirt"
         ]
       ],
-      "sg_iou": 0.5,
-      "entity_iou": 0.6666666666666666,
+      "sg_iou": 0.0,
+      "entity_iou": 0.25,
       "relation_iou": 0.5,
       "predicted_sg": [
         [
-          "a cat",
+          "cat",
           "is painted on",
           "a shirt"
         ],
@@ -667,46 +559,9 @@
         ]
       ],
       "predicted_entities": [
-        "a cat",
         "a shirt",
+        "cat",
         "floor"
-      ]
-    },
-    {
-      "image": "004.png",
-      "scene_index": 4,
-      "caption": "a man holding a guitar sits back to back with a woman",
-      "ground_truth_sg": [
-        [
-          "a man",
-          "back to back with",
-          "a woman"
-        ],
-        [
-          "a man",
-          "holding",
-          "a guitar"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a man",
-          "back to back with",
-          "a woman"
-        ],
-        [
-          "a man",
-          "holding",
-          "a guitar"
-        ]
-      ],
-      "predicted_entities": [
-        "a man",
-        "a woman",
-        "a guitar"
       ]
     },
     {
@@ -731,6 +586,11 @@
       "predicted_sg": [
         [
           "a woman",
+          "back to back with",
+          "a man"
+        ],
+        [
+          "a woman",
           "holding",
           "a guitar"
         ],
@@ -738,11 +598,6 @@
           "a man",
           "holding",
           "a guitar"
-        ],
-        [
-          "a woman",
-          "back to back with",
-          "a man"
         ]
       ],
       "predicted_entities": [
@@ -767,7 +622,7 @@
           "a guitar"
         ]
       ],
-      "sg_iou": 0.25,
+      "sg_iou": 0.3333333333333333,
       "entity_iou": 0.75,
       "relation_iou": 0.3333333333333333,
       "predicted_sg": [
@@ -777,19 +632,14 @@
           "a guitar"
         ],
         [
-          "a man",
-          "sits on",
-          "floor"
-        ],
-        [
           "a woman",
           "sits on",
           "floor"
         ]
       ],
       "predicted_entities": [
-        "a man",
         "a woman",
+        "a man",
         "a guitar",
         "floor"
       ]
@@ -858,7 +708,7 @@
           "a guitar"
         ]
       ],
-      "sg_iou": 0.5,
+      "sg_iou": 0.3333333333333333,
       "entity_iou": 1.0,
       "relation_iou": 0.5,
       "predicted_sg": [
@@ -866,11 +716,16 @@
           "a man",
           "holding",
           "a guitar"
+        ],
+        [
+          "a woman",
+          "holding",
+          "a man"
         ]
       ],
       "predicted_entities": [
-        "a woman",
         "a man",
+        "a woman",
         "a guitar"
       ]
     },
@@ -901,16 +756,11 @@
         ],
         [
           "a man",
-          "holding",
-          "a woman"
-        ],
-        [
-          "a woman",
           "sits on",
           "floor"
         ],
         [
-          "a man",
+          "a woman",
           "sits on",
           "floor"
         ]
@@ -920,44 +770,6 @@
         "a woman",
         "a guitar",
         "floor"
-      ]
-    },
-    {
-      "image": "005.png",
-      "scene_index": 5,
-      "caption": "a man holding a cake and a woman holding an apple",
-      "ground_truth_sg": [
-        [
-          "a man",
-          "holding",
-          "a cake"
-        ],
-        [
-          "a woman",
-          "holding",
-          "an apple"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a man",
-          "holding",
-          "a cake"
-        ],
-        [
-          "a woman",
-          "holding",
-          "an apple"
-        ]
-      ],
-      "predicted_entities": [
-        "a man",
-        "a woman",
-        "a cake",
-        "an apple"
       ]
     },
     {
@@ -993,8 +805,8 @@
       ],
       "predicted_entities": [
         "a woman",
-        "a man",
         "a cake",
+        "a man",
         "an apple"
       ]
     },
@@ -1030,8 +842,8 @@
         ]
       ],
       "predicted_entities": [
-        "a woman",
         "a man",
+        "a woman",
         "a cake",
         "a shirt"
       ]
@@ -1052,9 +864,9 @@
           "an apple"
         ]
       ],
-      "sg_iou": 0.3333333333333333,
-      "entity_iou": 0.2857142857142857,
-      "relation_iou": 0.5,
+      "sg_iou": 0.25,
+      "entity_iou": 0.3333333333333333,
+      "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
           "a man",
@@ -1065,13 +877,17 @@
           "a cake",
           "sits on",
           "a table"
+        ],
+        [
+          "a man",
+          "stands on",
+          "floor"
         ]
       ],
       "predicted_entities": [
         "a man",
         "a cake",
         "a table",
-        "a chair",
         "floor"
       ]
     },
@@ -1091,17 +907,12 @@
           "an apple"
         ]
       ],
-      "sg_iou": 0.6666666666666666,
+      "sg_iou": 1.0,
       "entity_iou": 1.0,
       "relation_iou": 1.0,
       "predicted_sg": [
         [
           "a man",
-          "holding",
-          "a cake"
-        ],
-        [
-          "a woman",
           "holding",
           "a cake"
         ],
@@ -1135,7 +946,7 @@
         ]
       ],
       "sg_iou": 0.5,
-      "entity_iou": 0.75,
+      "entity_iou": 0.4,
       "relation_iou": 1.0,
       "predicted_sg": [
         [
@@ -1146,34 +957,8 @@
       ],
       "predicted_entities": [
         "a man",
-        "a woman",
+        "a girl",
         "a cake"
-      ]
-    },
-    {
-      "image": "006.png",
-      "scene_index": 6,
-      "caption": "an apple is above a table",
-      "ground_truth_sg": [
-        [
-          "an apple",
-          "above",
-          "a table"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "an apple",
-          "above",
-          "a table"
-        ]
-      ],
-      "predicted_entities": [
-        "an apple",
-        "a table"
       ]
     },
     {
@@ -1284,17 +1069,12 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.5,
+      "entity_iou": 0.6666666666666666,
       "relation_iou": 0.0,
       "predicted_sg": [
         [
           "an apple",
           "sits on",
-          "a table"
-        ],
-        [
-          "a cup",
-          "under",
           "a table"
         ],
         [
@@ -1309,9 +1089,8 @@
         ]
       ],
       "predicted_entities": [
-        "an apple",
         "a table",
-        "a cup",
+        "an apple",
         "floor"
       ]
     },
@@ -1345,32 +1124,6 @@
         "an apple",
         "a table",
         "floor"
-      ]
-    },
-    {
-      "image": "007.png",
-      "scene_index": 7,
-      "caption": "a ball is under a table",
-      "ground_truth_sg": [
-        [
-          "a ball",
-          "under",
-          "a table"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a ball",
-          "under",
-          "a table"
-        ]
-      ],
-      "predicted_entities": [
-        "a ball",
-        "a table"
       ]
     },
     {
@@ -1422,23 +1175,28 @@
       "predicted_sg": [
         [
           "a ball",
-          "sits on",
+          "above",
           "a table"
         ],
         [
           "a ball",
-          "above",
+          "sits on",
           "a table"
         ],
         [
           "a table",
           "stands on",
           "floor"
+        ],
+        [
+          "a ball",
+          "sits on",
+          "floor"
         ]
       ],
       "predicted_entities": [
-        "a table",
         "a ball",
+        "a table",
         "floor"
       ]
     },
@@ -1490,14 +1248,19 @@
           "a table"
         ]
       ],
-      "sg_iou": 0.5,
+      "sg_iou": 0.3333333333333333,
       "entity_iou": 0.6666666666666666,
-      "relation_iou": 0.5,
+      "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
           "a ball",
           "under",
           "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
         ],
         [
           "a ball",
@@ -1506,8 +1269,8 @@
         ]
       ],
       "predicted_entities": [
-        "a ball",
         "a table",
+        "a ball",
         "floor"
       ]
     },
@@ -1527,46 +1290,20 @@
       "relation_iou": 0.5,
       "predicted_sg": [
         [
-          "a table",
-          "stands on",
-          "floor"
-        ],
-        [
           "a ball",
           "under",
           "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
         ]
       ],
       "predicted_entities": [
+        "a ball",
         "a table",
-        "floor",
-        "a ball"
-      ]
-    },
-    {
-      "image": "008.png",
-      "scene_index": 8,
-      "caption": "an apple is under a chair",
-      "ground_truth_sg": [
-        [
-          "an apple",
-          "under",
-          "a chair"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "an apple",
-          "under",
-          "a chair"
-        ]
-      ],
-      "predicted_entities": [
-        "an apple",
-        "a chair"
+        "floor"
       ]
     },
     {
@@ -1591,12 +1328,12 @@
         ],
         [
           "an apple",
-          "under",
+          "above",
           "a chair"
         ],
         [
           "an apple",
-          "above",
+          "under",
           "a chair"
         ]
       ],
@@ -1633,8 +1370,8 @@
         ]
       ],
       "predicted_entities": [
-        "an apple",
         "a chair",
+        "an apple",
         "floor"
       ]
     },
@@ -1654,14 +1391,14 @@
       "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
-          "rose",
-          "sits on",
-          "a chair"
-        ],
-        [
           "a chair",
           "stands on",
           "floor"
+        ],
+        [
+          "a pitaya",
+          "sits on",
+          "a chair"
         ],
         [
           "a ball",
@@ -1672,8 +1409,8 @@
       "predicted_entities": [
         "a chair",
         "floor",
-        "rose",
-        "a ball"
+        "a ball",
+        "a pitaya"
       ]
     },
     {
@@ -1687,9 +1424,9 @@
           "a chair"
         ]
       ],
-      "sg_iou": 0.5,
+      "sg_iou": 0.3333333333333333,
       "entity_iou": 0.5,
-      "relation_iou": 0.5,
+      "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
           "a cup",
@@ -1700,11 +1437,16 @@
           "an apple",
           "under",
           "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
         ]
       ],
       "predicted_entities": [
-        "a cup",
         "a chair",
+        "a cup",
         "an apple",
         "floor"
       ]
@@ -1725,57 +1467,20 @@
       "relation_iou": 0.5,
       "predicted_sg": [
         [
+          "an apple",
+          "under",
+          "a chair"
+        ],
+        [
           "a chair",
           "stands on",
           "floor"
-        ],
-        [
-          "an apple",
-          "under",
-          "a chair"
         ]
       ],
       "predicted_entities": [
+        "an apple",
         "a chair",
-        "an apple",
         "floor"
-      ]
-    },
-    {
-      "image": "009.png",
-      "scene_index": 9,
-      "caption": "a cup is under a chair and an apple is under a chair",
-      "ground_truth_sg": [
-        [
-          "a cup",
-          "under",
-          "a chair"
-        ],
-        [
-          "an apple",
-          "under",
-          "a chair"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a cup",
-          "under",
-          "a chair"
-        ],
-        [
-          "an apple",
-          "under",
-          "a chair"
-        ]
-      ],
-      "predicted_entities": [
-        "a cup",
-        "an apple",
-        "a chair"
       ]
     },
     {
@@ -1811,8 +1516,8 @@
       ],
       "predicted_entities": [
         "a chair",
-        "an apple",
-        "floor"
+        "floor",
+        "an apple"
       ]
     },
     {
@@ -1895,8 +1600,8 @@
       ],
       "predicted_entities": [
         "a chair",
-        "a pitaya",
         "floor",
+        "a pitaya",
         "a cup"
       ]
     },
@@ -1916,9 +1621,9 @@
           "a chair"
         ]
       ],
-      "sg_iou": 0.2,
-      "entity_iou": 0.4,
-      "relation_iou": 0.3333333333333333,
+      "sg_iou": 0.25,
+      "entity_iou": 0.5,
+      "relation_iou": 0.5,
       "predicted_sg": [
         [
           "a bowl",
@@ -1934,18 +1639,12 @@
           "an apple",
           "under",
           "a chair"
-        ],
-        [
-          "a chair",
-          "stands on",
-          "floor"
         ]
       ],
       "predicted_entities": [
         "a chair",
-        "floor",
-        "a bowl",
-        "an apple"
+        "an apple",
+        "a bowl"
       ]
     },
     {
@@ -1965,18 +1664,18 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.14285714285714285,
+      "entity_iou": 0.16666666666666666,
       "relation_iou": 0.0,
       "predicted_sg": [
         [
-          "a bowl",
+          "a spoon",
           "sits on",
           "a chair"
         ],
         [
-          "a spoon",
+          "a bowl",
           "sits on",
-          "a bowl"
+          "a chair"
         ],
         [
           "a chair",
@@ -1988,45 +1687,7 @@
         "a chair",
         "a bowl",
         "a spoon",
-        "floor",
-        "a pitaya"
-      ]
-    },
-    {
-      "image": "010.png",
-      "scene_index": 10,
-      "caption": "a pitaya is above a table and an apple is above a table",
-      "ground_truth_sg": [
-        [
-          "a pitaya",
-          "above",
-          "a table"
-        ],
-        [
-          "an apple",
-          "above",
-          "a table"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a pitaya",
-          "above",
-          "a table"
-        ],
-        [
-          "an apple",
-          "above",
-          "a table"
-        ]
-      ],
-      "predicted_entities": [
-        "a pitaya",
-        "an apple",
-        "a table"
+        "floor"
       ]
     },
     {
@@ -2109,9 +1770,9 @@
         ]
       ],
       "predicted_entities": [
+        "a pitaya",
         "a table",
         "an apple",
-        "a pitaya",
         "floor"
       ]
     },
@@ -2132,36 +1793,10 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.75,
+      "entity_iou": 0.0,
       "relation_iou": 0.0,
-      "predicted_sg": [
-        [
-          "a pitaya",
-          "sits on",
-          "a table"
-        ],
-        [
-          "an apple",
-          "under",
-          "a table"
-        ],
-        [
-          "a table",
-          "stands on",
-          "floor"
-        ],
-        [
-          "an apple",
-          "sits on",
-          "floor"
-        ]
-      ],
-      "predicted_entities": [
-        "a table",
-        "a pitaya",
-        "floor",
-        "an apple"
-      ]
+      "predicted_sg": [],
+      "predicted_entities": []
     },
     {
       "image": "010_003.png",
@@ -2181,15 +1816,15 @@
       ],
       "sg_iou": 0.0,
       "entity_iou": 0.2857142857142857,
-      "relation_iou": 0.3333333333333333,
+      "relation_iou": 0.25,
       "predicted_sg": [
         [
-          "a pitaya",
+          "a bowl",
           "sits on",
           "a table"
         ],
         [
-          "a bowl",
+          "a pitaya",
           "sits on",
           "a table"
         ],
@@ -2200,21 +1835,26 @@
         ],
         [
           "a pitaya",
-          "sits on",
-          "floor"
+          "under",
+          "a table"
         ],
         [
           "rose",
           "above",
           "a table"
+        ],
+        [
+          "a table",
+          "stands on",
+          "floor"
         ]
       ],
       "predicted_entities": [
         "a table",
-        "a pitaya",
-        "a bowl",
-        "a cup",
         "floor",
+        "a pitaya",
+        "a cup",
+        "a bowl",
         "rose"
       ]
     },
@@ -2240,12 +1880,12 @@
       "predicted_sg": [
         [
           "a pitaya",
-          "sits on",
+          "above",
           "a table"
         ],
         [
           "a pitaya",
-          "above",
+          "sits on",
           "a table"
         ],
         [
@@ -2256,45 +1896,8 @@
       ],
       "predicted_entities": [
         "a table",
-        "floor",
-        "a pitaya"
-      ]
-    },
-    {
-      "image": "011.png",
-      "scene_index": 11,
-      "caption": "a cup is above a table and a spoon is above a table",
-      "ground_truth_sg": [
-        [
-          "a cup",
-          "above",
-          "a table"
-        ],
-        [
-          "a spoon",
-          "above",
-          "a table"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a cup",
-          "above",
-          "a table"
-        ],
-        [
-          "a spoon",
-          "above",
-          "a table"
-        ]
-      ],
-      "predicted_entities": [
-        "a cup",
-        "a spoon",
-        "a table"
+        "a pitaya",
+        "floor"
       ]
     },
     {
@@ -2351,23 +1954,18 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.75,
+      "entity_iou": 0.5,
       "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
           "a cup",
-          "above",
-          "a cup"
+          "sits on",
+          "a table"
         ],
         [
           "a cup",
-          "stands on",
-          "a table"
-        ],
-        [
-          "a spoon",
-          "sits on",
-          "a table"
+          "above",
+          "a cup"
         ],
         [
           "a table",
@@ -2378,8 +1976,7 @@
       "predicted_entities": [
         "a cup",
         "a table",
-        "floor",
-        "a spoon"
+        "floor"
       ]
     },
     {
@@ -2398,10 +1995,15 @@
           "a table"
         ]
       ],
-      "sg_iou": 0.16666666666666666,
-      "entity_iou": 0.3333333333333333,
-      "relation_iou": 0.3333333333333333,
+      "sg_iou": 0.0,
+      "entity_iou": 0.2857142857142857,
+      "relation_iou": 0.25,
       "predicted_sg": [
+        [
+          "a table",
+          "stands on",
+          "floor"
+        ],
         [
           "a bowl",
           "sits on",
@@ -2414,26 +2016,22 @@
         ],
         [
           "a ball",
-          "sits on",
-          "a table"
-        ],
-        [
-          "a spoon",
           "above",
           "a table"
         ],
         [
-          "a table",
-          "stands on",
-          "floor"
+          "a chair",
+          "under",
+          "a table"
         ]
       ],
       "predicted_entities": [
         "a table",
+        "floor",
         "a bowl",
         "a spoon",
-        "floor",
-        "a ball"
+        "a ball",
+        "a chair"
       ]
     },
     {
@@ -2473,9 +2071,9 @@
         ]
       ],
       "predicted_entities": [
+        "a cup",
         "a table",
-        "floor",
-        "a cup"
+        "floor"
       ]
     },
     {
@@ -2522,43 +2120,6 @@
       ]
     },
     {
-      "image": "012.png",
-      "scene_index": 12,
-      "caption": "a cup is under a table and a bowl is under a table",
-      "ground_truth_sg": [
-        [
-          "a cup",
-          "under",
-          "a table"
-        ],
-        [
-          "a bowl",
-          "under",
-          "a table"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a cup",
-          "under",
-          "a table"
-        ],
-        [
-          "a bowl",
-          "under",
-          "a table"
-        ]
-      ],
-      "predicted_entities": [
-        "a cup",
-        "a bowl",
-        "a table"
-      ]
-    },
-    {
       "image": "012_000.png",
       "scene_index": 12,
       "caption": "a cup is under a table and a bowl is under a table",
@@ -2575,9 +2136,14 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.25,
+      "entity_iou": 0.2,
       "relation_iou": 0.0,
       "predicted_sg": [
+        [
+          "a spoon",
+          "sits on",
+          "a table"
+        ],
         [
           "a table",
           "stands on",
@@ -2586,6 +2152,7 @@
       ],
       "predicted_entities": [
         "a table",
+        "a spoon",
         "floor"
       ]
     },
@@ -2605,9 +2172,9 @@
           "a table"
         ]
       ],
-      "sg_iou": 0.4,
+      "sg_iou": 0.0,
       "entity_iou": 0.75,
-      "relation_iou": 0.3333333333333333,
+      "relation_iou": 0.0,
       "predicted_sg": [
         [
           "a table",
@@ -2623,23 +2190,13 @@
           "a bowl",
           "sits on",
           "floor"
-        ],
-        [
-          "a cup",
-          "under",
-          "a table"
-        ],
-        [
-          "a bowl",
-          "under",
-          "a table"
         ]
       ],
       "predicted_entities": [
         "a table",
         "floor",
-        "a cup",
-        "a bowl"
+        "a bowl",
+        "a cup"
       ]
     },
     {
@@ -2700,13 +2257,13 @@
       "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
-          "a table",
-          "stands on",
+          "a bowl",
+          "sits on",
           "floor"
         ],
         [
-          "a bowl",
-          "sits on",
+          "a table",
+          "stands on",
           "floor"
         ],
         [
@@ -2738,8 +2295,8 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.2,
-      "relation_iou": 0.0,
+      "entity_iou": 0.16666666666666666,
+      "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
           "a table",
@@ -2750,61 +2307,18 @@
           "rose",
           "above",
           "a table"
+        ],
+        [
+          "a ball",
+          "under",
+          "a table"
         ]
       ],
       "predicted_entities": [
         "a table",
         "floor",
-        "rose"
-      ]
-    },
-    {
-      "image": "013.png",
-      "scene_index": 13,
-      "caption": "a man sits on a chair and a girl holding a schoolbag stands on floor",
-      "ground_truth_sg": [
-        [
-          "a man",
-          "sits on",
-          "a chair"
-        ],
-        [
-          "a girl",
-          "holding",
-          "a schoolbag"
-        ],
-        [
-          "a girl",
-          "stands on",
-          "floor"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a man",
-          "sits on",
-          "a chair"
-        ],
-        [
-          "a girl",
-          "holding",
-          "a schoolbag"
-        ],
-        [
-          "a girl",
-          "stands on",
-          "floor"
-        ]
-      ],
-      "predicted_entities": [
-        "a man",
-        "a girl",
-        "a chair",
-        "a schoolbag",
-        "floor"
+        "rose",
+        "a ball"
       ]
     },
     {
@@ -2830,13 +2344,8 @@
       ],
       "sg_iou": 0.2,
       "entity_iou": 0.42857142857142855,
-      "relation_iou": 0.6666666666666666,
+      "relation_iou": 1.0,
       "predicted_sg": [
-        [
-          "a woman",
-          "sits on",
-          "a chair"
-        ],
         [
           "a man",
           "sits on",
@@ -2846,14 +2355,19 @@
           "a man",
           "stands on",
           "floor"
+        ],
+        [
+          "a man",
+          "holding",
+          "a table"
         ]
       ],
       "predicted_entities": [
-        "a woman",
         "a man",
         "a chair",
+        "floor",
         "a table",
-        "floor"
+        "a shirt"
       ]
     },
     {
@@ -2938,11 +2452,6 @@
           "a woman",
           "stands on",
           "floor"
-        ],
-        [
-          "a table",
-          "stands on",
-          "floor"
         ]
       ],
       "predicted_entities": [
@@ -2973,7 +2482,7 @@
           "floor"
         ]
       ],
-      "sg_iou": 0.25,
+      "sg_iou": 0.2,
       "entity_iou": 0.5,
       "relation_iou": 0.6666666666666666,
       "predicted_sg": [
@@ -2984,6 +2493,11 @@
         ],
         [
           "a chair",
+          "stands on",
+          "floor"
+        ],
+        [
+          "a woman",
           "stands on",
           "floor"
         ]
@@ -3016,8 +2530,8 @@
           "floor"
         ]
       ],
-      "sg_iou": 0.6666666666666666,
-      "entity_iou": 0.8,
+      "sg_iou": 0.25,
+      "entity_iou": 0.5,
       "relation_iou": 0.6666666666666666,
       "predicted_sg": [
         [
@@ -3026,53 +2540,16 @@
           "a chair"
         ],
         [
-          "a girl",
+          "a woman",
           "holding",
           "a schoolbag"
         ]
       ],
       "predicted_entities": [
         "a man",
+        "a woman",
         "a chair",
-        "a girl",
         "a schoolbag"
-      ]
-    },
-    {
-      "image": "014.png",
-      "scene_index": 14,
-      "caption": "a man sits on a chair and a man stands on floor",
-      "ground_truth_sg": [
-        [
-          "a man",
-          "sits on",
-          "a chair"
-        ],
-        [
-          "a man",
-          "stands on",
-          "floor"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a man",
-          "sits on",
-          "a chair"
-        ],
-        [
-          "a man",
-          "stands on",
-          "floor"
-        ]
-      ],
-      "predicted_entities": [
-        "a man",
-        "a chair",
-        "floor"
       ]
     },
     {
@@ -3101,12 +2578,12 @@
           "a chair"
         ],
         [
-          "a man",
+          "a chair",
           "stands on",
           "floor"
         ],
         [
-          "a chair",
+          "a man",
           "stands on",
           "floor"
         ]
@@ -3148,12 +2625,12 @@
           "floor"
         ],
         [
-          "a table",
+          "a chair",
           "stands on",
           "floor"
         ],
         [
-          "a chair",
+          "a table",
           "stands on",
           "floor"
         ]
@@ -3161,8 +2638,8 @@
       "predicted_entities": [
         "a man",
         "a chair",
-        "floor",
-        "a table"
+        "a table",
+        "floor"
       ]
     },
     {
@@ -3218,7 +2695,7 @@
           "floor"
         ]
       ],
-      "sg_iou": 0.5,
+      "sg_iou": 0.6666666666666666,
       "entity_iou": 1.0,
       "relation_iou": 0.6666666666666666,
       "predicted_sg": [
@@ -3229,18 +2706,13 @@
         ],
         [
           "a man",
-          "back to back with",
-          "a man"
-        ],
-        [
-          "a chair",
           "stands on",
           "floor"
         ],
         [
           "a man",
-          "stands on",
-          "floor"
+          "back to back with",
+          "a man"
         ]
       ],
       "predicted_entities": [
@@ -3287,47 +2759,9 @@
       ],
       "predicted_entities": [
         "a man",
-        "a chair",
         "a shirt",
+        "a chair",
         "an apple"
-      ]
-    },
-    {
-      "image": "015.png",
-      "scene_index": 15,
-      "caption": "a girl stands on floor and a man sits on a chair",
-      "ground_truth_sg": [
-        [
-          "a girl",
-          "stands on",
-          "floor"
-        ],
-        [
-          "a man",
-          "sits on",
-          "a chair"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a girl",
-          "stands on",
-          "floor"
-        ],
-        [
-          "a man",
-          "sits on",
-          "a chair"
-        ]
-      ],
-      "predicted_entities": [
-        "a girl",
-        "a man",
-        "floor",
-        "a chair"
       ]
     },
     {
@@ -3354,6 +2788,11 @@
           "a woman",
           "sits on",
           "a chair"
+        ],
+        [
+          "a chair",
+          "stands on",
+          "floor"
         ],
         [
           "a man",
@@ -3384,8 +2823,8 @@
           "a chair"
         ]
       ],
-      "sg_iou": 0.25,
-      "entity_iou": 0.42857142857142855,
+      "sg_iou": 0.2,
+      "entity_iou": 0.5,
       "relation_iou": 1.0,
       "predicted_sg": [
         [
@@ -3394,12 +2833,17 @@
           "a chair"
         ],
         [
+          "a woman",
+          "stands on",
+          "floor"
+        ],
+        [
           "a chair",
           "stands on",
           "floor"
         ],
         [
-          "a woman",
+          "a table",
           "stands on",
           "floor"
         ]
@@ -3409,8 +2853,7 @@
         "a woman",
         "a chair",
         "floor",
-        "a table",
-        "a schoolbag"
+        "a table"
       ]
     },
     {
@@ -3451,8 +2894,8 @@
       ],
       "predicted_entities": [
         "a man",
-        "a woman",
         "a chair",
+        "a woman",
         "floor"
       ]
     },
@@ -3482,21 +2925,21 @@
           "a chair"
         ],
         [
-          "a woman",
+          "a chair",
           "stands on",
           "floor"
         ],
         [
-          "a chair",
+          "a woman",
           "stands on",
           "floor"
         ]
       ],
       "predicted_entities": [
         "a man",
-        "a woman",
         "a chair",
-        "floor"
+        "floor",
+        "a woman"
       ]
     },
     {
@@ -3538,43 +2981,6 @@
       ]
     },
     {
-      "image": "016.png",
-      "scene_index": 16,
-      "caption": "a man drinking juice and a man drinking water",
-      "ground_truth_sg": [
-        [
-          "a man",
-          "drinking",
-          "juice"
-        ],
-        [
-          "a man",
-          "drinking",
-          "water"
-        ]
-      ],
-      "sg_iou": 1.0,
-      "entity_iou": 1.0,
-      "relation_iou": 1.0,
-      "predicted_sg": [
-        [
-          "a man",
-          "drinking",
-          "juice"
-        ],
-        [
-          "a man",
-          "drinking",
-          "water"
-        ]
-      ],
-      "predicted_entities": [
-        "a man",
-        "juice",
-        "water"
-      ]
-    },
-    {
       "image": "016_000.png",
       "scene_index": 16,
       "caption": "a man drinking juice and a man drinking water",
@@ -3591,9 +2997,14 @@
         ]
       ],
       "sg_iou": 0.0,
-      "entity_iou": 0.16666666666666666,
-      "relation_iou": 0.5,
+      "entity_iou": 0.14285714285714285,
+      "relation_iou": 0.3333333333333333,
       "predicted_sg": [
+        [
+          "a man",
+          "holding",
+          "a cup"
+        ],
         [
           "a man",
           "drinking",
@@ -3613,6 +3024,7 @@
       "predicted_entities": [
         "a man",
         "a cup",
+        "a shirt",
         "floor",
         "a table"
       ]
@@ -3633,26 +3045,20 @@
           "water"
         ]
       ],
-      "sg_iou": 0.3333333333333333,
-      "entity_iou": 0.4,
-      "relation_iou": 0.5,
+      "sg_iou": 0.5,
+      "entity_iou": 0.5,
+      "relation_iou": 1.0,
       "predicted_sg": [
         [
           "a man",
           "drinking",
           "juice"
-        ],
-        [
-          "rose",
-          "is painted on",
-          "a shirt"
         ]
       ],
       "predicted_entities": [
         "a man",
         "juice",
-        "a shirt",
-        "rose"
+        "a shirt"
       ]
     },
     {
@@ -3671,14 +3077,14 @@
           "water"
         ]
       ],
-      "sg_iou": 0.0,
-      "entity_iou": 0.16666666666666666,
+      "sg_iou": 0.25,
+      "entity_iou": 0.3333333333333333,
       "relation_iou": 0.3333333333333333,
       "predicted_sg": [
         [
           "a man",
           "drinking",
-          "a cup"
+          "water"
         ],
         [
           "a man",
@@ -3694,12 +3100,49 @@
       "predicted_entities": [
         "a man",
         "a cup",
+        "water",
         "floor",
         "a shirt"
       ]
     },
     {
       "image": "016_003.png",
+      "scene_index": 16,
+      "caption": "a man drinking juice and a man drinking water",
+      "ground_truth_sg": [
+        [
+          "a man",
+          "drinking",
+          "juice"
+        ],
+        [
+          "a man",
+          "drinking",
+          "water"
+        ]
+      ],
+      "sg_iou": 0.0,
+      "entity_iou": 0.25,
+      "relation_iou": 0.5,
+      "predicted_sg": [
+        [
+          "a cup",
+          "above",
+          "a man"
+        ],
+        [
+          "a man",
+          "drinking",
+          "a cup"
+        ]
+      ],
+      "predicted_entities": [
+        "a man",
+        "a cup"
+      ]
+    },
+    {
+      "image": "016_004.png",
       "scene_index": 16,
       "caption": "a man drinking juice and a man drinking water",
       "ground_truth_sg": [
@@ -3724,52 +3167,14 @@
           "a cup"
         ],
         [
-          "a cup",
-          "above",
-          "a man"
-        ]
-      ],
-      "predicted_entities": [
-        "a man",
-        "a cup",
-        "a shirt"
-      ]
-    },
-    {
-      "image": "016_004.png",
-      "scene_index": 16,
-      "caption": "a man drinking juice and a man drinking water",
-      "ground_truth_sg": [
-        [
-          "a man",
-          "drinking",
-          "juice"
-        ],
-        [
-          "a man",
-          "drinking",
-          "water"
-        ]
-      ],
-      "sg_iou": 0.3333333333333333,
-      "entity_iou": 0.4,
-      "relation_iou": 0.5,
-      "predicted_sg": [
-        [
           "a man",
           "holding",
           "a cup"
-        ],
-        [
-          "a man",
-          "drinking",
-          "juice"
         ]
       ],
       "predicted_entities": [
         "a man",
         "a cup",
-        "juice",
         "a shirt"
       ]
     }

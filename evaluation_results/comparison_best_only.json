@@ -1,0 +1,24 @@
+{
+  "selection_method": "best_sg_iou_per_scene",
+  "methods": {
+    "gnn_run": {
+      "sg_iou": 0.48039215686274517,
+      "entity_iou": 0.6872549019607843,
+      "relation_iou": 0.5882352941176471,
+      "n_images": 17
+    },
+    "repr_run": {
+      "sg_iou": 0.45098039215686275,
+      "entity_iou": 0.6823529411764706,
+      "relation_iou": 0.5784313725490196,
+      "n_images": 17
+    }
+  },
+  "paper_baseline": {
+    "SG-Adapter": {
+      "sg_iou": 0.623,
+      "entity_iou": 0.812,
+      "relation_iou": 0.753
+    }
+  }
+}

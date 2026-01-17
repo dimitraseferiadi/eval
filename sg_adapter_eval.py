@@ -1,6 +1,7 @@
 """
 SG-Adapter Evaluation Script using Gemini API
 FIXED VERSION - Properly matches images to metadata
+UPDATED: Filters out reference images (e.g., 000.png), keeping only generated variants (e.g., 000_000.png)
 """
 
 import os
@@ -198,6 +199,14 @@ Do not include any other text, explanations, or markdown formatting."""
             # Extract the base filename
             base_name = os.path.basename(img_path)
             name_without_ext = os.path.splitext(base_name)[0]
+            
+            # --- FILTER MODIFICATION START ---
+            # Skip ground truth/reference images (e.g., "000.png", "015.png")
+            # Only keep generated variants which contain an underscore (e.g., "000_000.png")
+            if '_' not in name_without_ext:
+                # print(f"Skipping reference image: {base_name}")
+                continue
+            # --- FILTER MODIFICATION END ---
             
             # Extract scene index from filename
             # For files like "000.png", "001_002.png", extract the first number
